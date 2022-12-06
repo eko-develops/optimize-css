@@ -1,0 +1,28 @@
+{
+	"name": "optimize-css",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"build:css": "postcss src/styles.css --dir dist",
+		"watch:css": "postcss src/styles.css --dir dist -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/eko-develops/optimize-css.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/eko-develops/optimize-css/issues"
+	},
+	"homepage": "https://github.com/eko-develops/optimize-css#readme",
+	"devDependencies": {
+		"cssnano": "^5.1.14",
+		"postcss": "^8.4.19",
+		"postcss-cli": "^10.1.0",
+		"postcss-preset-env": "^7.8.3"
+	}
+}
