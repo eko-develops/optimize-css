@@ -5,8 +5,8 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"build:css": "postcss src/styles.css --dir dist",
-		"watch:css": "postcss src/styles.css --dir dist -w"
+		"build:css": "postcss src/*.css --dir dist",
+		"watch:css": "postcss src/*.css --dir dist -w"
 	},
 	"repository": {
 		"type": "git",
