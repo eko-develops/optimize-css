@@ -1,0 +1,27 @@
+body {
+	/**Changes heading color */
+	h1,
+	h2 {
+		color: green;
+	}
+
+	/**Changes h2 color */
+	h2 {
+		background: red;
+	}
+
+	/**Main layout */
+	main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		.container {
+			transform: rotate(90deg);
+		}
+
+		img {
+			opacity: 90%;
+		}
+	}
+}
