@@ -11,6 +11,7 @@ body h2 {
   background: red;
 }
 body main {
+  background-image: linear-gradient(red, white);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,4 +21,5 @@ body main .container {
 }
 body main img {
   opacity: 90%;
+  transition: all 0.5s ease-in-out;
 }

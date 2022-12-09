@@ -1,0 +1,1 @@
+body h1,body h2{color:green}body h2{background:red}body main{background-image:linear-gradient(red,#fff);display:flex;flex-direction:column;justify-content:center}body main .container{transform:rotate(90deg)}body main img{opacity:.9;transition:all .5s ease-in-out}
